@@ -1,0 +1,25 @@
+main {
+  padding-top: 4.5rem;
+}
+
+@font-face {
+  font-family: NotoSans;
+  src: url(fonts/NotoSansJP/NotoSansJP-Medium.otf);
+}
+
+@font-face {
+  font-family: NotoSerif;
+  src: url(fonts/NotoSerifJP/NotoSerifJP-Medium.otf);
+}
+
+.webflash-card{
+  padding: 20px;
+  font-size: 3rem; 
+}
+
+.jp {
+  line-height: 1.5rem;
+  letter-spacing: 0.1rem;
+  font-family: NotoSerif, "Hiragino Kaku Gothic ProN", "Meiryo";
+}
+

@@ -1,0 +1,60 @@
+{
+  "about": {
+    "id": "joy-jp-l1-greetings",
+    "title": "Greetings",
+    "source": "Joyful Japanese - Lesson 1",
+    "side1": "japanese",
+    "side2": "english"
+  },
+
+  "cards": [
+    {
+      "side1": "おはようございます。",
+      "side2": "Good morning."
+    },
+    {
+      "side1": "こんにちは。",
+      "side2": "Hello."
+    },
+    {
+      "side1": "こんばんは。",
+      "side2": "Good evening."
+    },
+    {
+      "side1": "さようなら。",
+      "side2": "Good-bye."
+    },
+    {
+      "side1": "どうもありがとうございます。",
+      "side2": "Thank you very much."
+    },
+    {
+      "side1": "ありがとうございます。",
+      "side2": "Thank you."
+    },
+    {
+      "side1": "どいたしまして。",
+      "side2": "You're welcome."
+    },
+    {
+      "side1": "すみません。",
+      "side2": "I'm sorry."
+    },
+    {
+      "side1": "どおもすみません。",
+      "side2": "I'm very sorry."
+    },
+    {
+      "side1": "じゃあ、またあとで。",
+      "side2": "Well then, see you again later."
+    },
+    {
+      "side1": "じゃあ、またあした。",
+      "side2": "Well then, see you again tomorrow."
+    },
+    {
+      "side1": "じゃあ、またらいしゅう。",
+      "side2": "Well then, see you again next week."
+    }
+  ]
+}
