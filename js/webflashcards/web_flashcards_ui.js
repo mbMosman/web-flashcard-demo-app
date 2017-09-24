@@ -5,7 +5,7 @@ export default class FlashcardsUI {
   constructor(app, model, targetId) {
     this.app = app;
     this.model = model;
-    this.targetId = targetId;
+    this.targetElement = document.getElementById(targetId);
     this.cardArea = null;
     this.currentCard = null;
     this.correctCardCount = 0;
@@ -40,15 +40,19 @@ export default class FlashcardsUI {
   }
 
   initialize() {
-    const targetElement = document.getElementById(this.targetId);
-    targetElement.setAttribute("class", this.appStyles.appAreaStyles);
+    this.hideElement(this.targetElement);
+    this.targetElement.setAttribute("class", this.appStyles.appAreaStyles);
     
     const infoArea = this.createInfoArea();
-    targetElement.appendChild(infoArea);
+    this.targetElement.appendChild(infoArea);
     
     this.cardArea = this.createCardArea();
     this.cardArea.setAttribute("hidden", "");
-    targetElement.appendChild(this.cardArea);
+    this.targetElement.appendChild(this.cardArea);
+  }
+  
+  show(){
+    this.showElement(this.targetElement); 
   }
   
   showCard(card){
@@ -160,7 +164,7 @@ export default class FlashcardsUI {
   clearSecondaryMessages(){
     const infoPanel = this.secondaryInfoPanel;
     infoPanel.innerHTML = "";
-    infoPanel.setAttribute("hidden", "");
+    this.hideElement(infoPanel);
   }
 
   createInfoArea(){
@@ -169,7 +173,7 @@ export default class FlashcardsUI {
     infoArea.appendChild(this.mainInfoPanel);
     
     this.secondaryInfoPanel = document.createElement("div");
-    this.secondaryInfoPanel.setAttribute("hidden", "");
+    this.hideElement(this.secondaryInfoPanel);
     infoArea.appendChild(this.secondaryInfoPanel);
     
     return infoArea;
@@ -210,22 +214,33 @@ export default class FlashcardsUI {
     return historicalStats;
   }
   
+  hideElement(element){
+    element.setAttribute("hidden", ""); 
+  }
+  
+  showElement(element){
+    element.removeAttribute("hidden");
+  }
+  
   showErrorMessage(text) {
-    const infoPanel = this.secondaryInfoPanel;
-    
-    infoPanel.innerHTML = "";
-    infoPanel.appendChild(this.createElementWithText("p", text, ""));
-    infoPanel.setAttribute("class", this.appStyles.infoErrorStyles);
-    infoPanel.removeAttribute("hidden");                         
+    this.showInfoPanel(text, this.appStyles.infoErrorStyles);
   }
   
   showWarningMessage(text) {
+    this.showInfoPanel(text, this.appStyles.infoWarningStyles);
+  }
+  
+  showSuccessMessage(text) {
+    this.showInfoPanel(text, this.appStyles.infoSuccessStyles);                
+  }
+  
+  showInfoPanel(text, styles){
     const infoPanel = this.secondaryInfoPanel;
     
     infoPanel.innerHTML = "";
     infoPanel.appendChild(this.createElementWithText("p", text, ""));
-    infoPanel.setAttribute("class", this.appStyles.infoWarningStyles);
-    infoPanel.removeAttribute("hidden");                         
+    infoPanel.setAttribute("class", styles);
+    this.showElement(infoPanel);
   }
   
   updateSessionStats(model) {

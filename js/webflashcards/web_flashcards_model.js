@@ -74,7 +74,7 @@ export default class FlashcardsModel {
 
   next() {
     let max = this.sessionDeck.length;
-    let index = Math.floor(Math.random() * (max + 1));
+    let index = Math.floor(Math.random() * max);
     this.currentCard = this.sessionDeck[index];
     this.sessionDeck.splice(index, 1);
   }

@@ -31,7 +31,11 @@
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="dd-cards" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Cardsets</a>
           <div class="dropdown-menu" aria-labelledby="dd-cards">
-            <span>None available.</span>
+            <button class="dropdown-item" id="joyful-jp-l1">Joyful Japanese, Lesson 1: Greetings</button>
+            <button class="dropdown-item" id="joyful-jp-l2">Joyful Japanese, Lesson 2: Vocabulary</button>
+            <button class="dropdown-item" id="joyful-jp-l3">Joyful Japanese, Lesson 3: Vocabulary</button>
+            <button class="dropdown-item" id="joyful-jp-travel-l1">Joyful Japanese Traveler's Ed, Lesson 1: Expressions</button>
+            <button class="dropdown-item" id="joyful-jp-travel-l3">Joyful Japanese Traveler's Ed, Lesson 3: Expressions</button>
           </div>
         </li>
       </ul>
@@ -42,10 +46,18 @@
   <main class="container">
 
     <h1>Web Flashcards (for Learning Japanese)</h1>
-
-    <p>This app will use your browser's storage to track your progress. If you use a different computer, your history will not go with you.</p>
-    <p>Use the menu above to load a set of cards for practice.</p>
-
+    
+    <div id="welcome" class="row text-center">
+      <div class="col">
+        <p>Use the menu above to load a set of cards for practice.</p>
+        <p>
+          This app will use your browser's storage to track your progress. 
+          <br>If you use a different computer, your history will not go with you.
+        </p>
+        <button id="app-start" class="btn btn-lg mr-1 btn-primary" style="display: none;">Start Session</button>
+      </div>
+    </div>
+    
     <div id="cardapp"></div>
 
   </main>

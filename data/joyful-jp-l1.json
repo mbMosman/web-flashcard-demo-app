@@ -1,8 +1,8 @@
 {
   "about": {
-    "id": "joy-jp-l1-greetings",
-    "title": "Greetings",
-    "source": "Joyful Japanese - Lesson 1",
+    "id": "joy-jp-l1",
+    "title": "Lesson 1: Greetings",
+    "source": "Joyful Japanese",
     "side1": "japanese",
     "side2": "english"
   },
@@ -33,7 +33,7 @@
       "side2": "Thank you."
     },
     {
-      "side1": "どいたしまして。",
+      "side1": "どういたしまして。",
       "side2": "You're welcome."
     },
     {
@@ -41,7 +41,7 @@
       "side2": "I'm sorry."
     },
     {
-      "side1": "どおもすみません。",
+      "side1": "どうもすみません。",
       "side2": "I'm very sorry."
     },
     {
