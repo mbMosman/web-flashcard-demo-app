@@ -626,50 +626,62 @@ $__System.register("1", ["9"], function (_export) {
       $(function () {
 
         var wfApp = new WebFlashcardApp("cardapp");
+        var appStarted = false;
         wfApp.init();
-        if (wfApp.getSessionCardCount() > 0) {
-          $("#welcome").hide();
+        if (wfApp.getSessionCardCount() < 1) {
+          $("#welcome").show();
         }
 
         $("#app-start").on("click", function () {
           if (wfApp.getSessionCardCount() > 0) {
+            $("#app-start").hide();
+            $("#welcome").hide();
             wfApp.startSession();
-            $("#welcome").show();
           }
         });
 
         $("#joyful-jp-l1").on("click", function () {
           $.getJSON("data/joyful-jp-l1.json", function (data) {
             wfApp.addNewCards(data);
-            $("#app-start").show();
+            if (!appStarted) {
+              $("#app-start").show();
+            }
           });
         });
 
         $("#joyful-jp-l2").on("click", function () {
           $.getJSON("data/joyful-jp-l2.json", function (data) {
             wfApp.addNewCards(data);
-            $("#app-start").show();
+            if (!appStarted) {
+              $("#app-start").show();
+            }
           });
         });
 
         $("#joyful-jp-l3").on("click", function () {
           $.getJSON("data/joyful-jp-l3.json", function (data) {
             wfApp.addNewCards(data);
-            $("#app-start").show();
+            if (!appStarted) {
+              $("#app-start").show();
+            }
           });
         });
 
         $("#joyful-jp-travel-l1").on("click", function () {
           $.getJSON("data/joyful-jp-travel-l1.json", function (data) {
             wfApp.addNewCards(data);
-            $("#app-start").toggle();
+            if (!appStarted) {
+              $("#app-start").show();
+            }
           });
         });
 
         $("#joyful-jp-travel-l3").on("click", function () {
           $.getJSON("data/joyful-jp-travel-l3.json", function (data) {
             wfApp.addNewCards(data);
-            $("#app-start").toggle();
+            if (!appStarted) {
+              $("#app-start").show();
+            }
           });
         });
       });
