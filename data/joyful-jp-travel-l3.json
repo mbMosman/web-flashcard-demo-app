@@ -1,0 +1,100 @@
+{
+  "about": {
+    "id": "joy-jp-travel-l3",
+    "title": "Lesson 3: Expressions",
+    "source": "Joyful Japanese Traveler's Ed.",
+    "side1": "japanese",
+    "side2": "english"
+  },
+
+  "cards": [
+    {
+      "side1": "どうぞよろしく。",
+      "side2": "Nice to meet you."
+    },
+    {
+      "side1": "こちらこそ。",
+      "side2": "Nice to meet you, too. (Applies to me also.)"
+    },
+    {
+      "side1": "はじめまして。",
+      "side2": "Nice to meet you. (First time meeting.)"
+    },
+    {
+      "side1": "おなまえはなんですか。",
+      "side2": "What is your name?"
+    },
+    {
+      "side1": "おあいできてとてもうれしいです。",
+      "side2": "I'm very pleased to meet you."
+    },
+    {
+      "side1": "わたしのめしです。",
+      "side2": "This is my business card."
+    },
+    {
+      "side1": "えいえごおはなしますか。",
+      "side2": "Do you speak English?"
+    },
+    {
+      "side1": "にほんごがすこしだけわかります。",
+      "side2": "I understand Japanese only a little."
+    },
+    {
+      "side1": "わたしはアメリカじんです。",
+      "side2": "I'm an American."
+    },
+    {
+      "side1": "そうですか。",
+      "side2": "Is that so?"
+    },
+    {
+      "side1": "ほんとうですか。",
+      "side2": "Is that true?"
+    },
+    {
+      "side1": "あなたはだいがくせいですか。",
+      "side2": "Are you a college student?"
+    },
+    {
+      "side1": "あなたはかいしゃいんですか。",
+      "side2": "Are you a company employee?"
+    },
+    {
+      "side1": "＿＿はえいごでなんですか。",
+      "side2": "How do you say ___ in English?"
+    },
+    {
+      "side1": "しゃしんおをとってもいいですか。",
+      "side2": "Is it OK to take a picture?"
+    },
+    {
+      "side1": "またここにきたいです。",
+      "side2": "I'd like to come here again."
+    },
+    {
+      "side1": "ちょっとまってください。",
+      "side2": "Please wait a moment."
+    }
+    {
+      "side1": "コーヒーをのみませんか。",
+      "side2": "Would you like to drink coffee?"
+    },
+    {
+      "side1": "はい、いただきます。",
+      "side2": "Yes, please. (I'd like some food/drink.)"
+    },
+    {
+      "side1": "いいえ、けっこです。",
+      "side2": "No, thank you. (I'm fine.)"
+    },
+    {
+      "side1": "いきましょう。",
+      "side2": "Let's go."
+    },
+    {
+      "side1": "いきましょうか。",
+      "side2": "Shall we go?"
+    }
+  ]
+}

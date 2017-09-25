@@ -1,0 +1,64 @@
+{
+  "about": {
+    "id": "joy-jp-travel-l1",
+    "title": "Lesson 1: Expressions",
+    "source": "Joyful Japanese Traveler's Ed.",
+    "side1": "japanese",
+    "side2": "english"
+  },
+
+  "cards": [
+    {
+      "side1": "どうも。",
+      "side2": "Thanks."
+    },
+    {
+      "side1": "どうもありがとうございました。",
+      "side2": "Thank you very much for what you've done for me."
+    },
+    {
+      "side1": "しつれいします。",
+      "side2": "Excuse me. (when interrupting)"
+    },
+    {
+      "side1": "おねがいします。",
+      "side2": "I'd appreciate your help."
+    },
+    {
+      "side1": "わかりますか。",
+      "side2": "Do you understand?"
+    },
+    {
+      "side1": "はい、わかります。",
+      "side2": "Yes, I understand."
+    },
+    {
+      "side1": "いいえ、わかりません。",
+      "side2": "No, I don't understand."
+    },
+    {
+      "side1": "いいですか。",
+      "side2": "Is it correct?"
+    },
+    {
+      "side1": "はい、いいです。",
+      "side2": "Yes, it is correct."
+    },
+    {
+      "side1": "いいえ、ちがいます。",
+      "side2": "No, it is incorrect."
+    },
+    {
+      "side1": "もういちどいってください。",
+      "side2": "Please say it once more."
+    },
+    {
+      "side1": "ゆっくりはなしてください。",
+      "side2": "Please speak slowly."
+    },
+    {
+      "side1": "もうすこしはっきりいってください。",
+      "side2": "Please say it a little more clearly."
+    }
+  ]
+}

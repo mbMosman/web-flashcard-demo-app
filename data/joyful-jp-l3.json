@@ -1,0 +1,124 @@
+{
+  "about": {
+    "id": "joy-jp-l3",
+    "title": "Lesson 3: Vocabulary",
+    "source": "Joyful Japanese",
+    "side1": "japanese",
+    "side2": "english"
+  },
+
+  "cards": [
+    {
+      "side1": "おいしい",
+      "side2": "delicious"
+    },
+    {
+      "side1": "おもしろい",
+      "side2": "interesting"
+    },
+    {
+      "side1": "うつくしい",
+      "side2": "beautiful"
+    },
+    {
+      "side1": "すばらしい",
+      "side2": "wonderful"
+    },
+    {
+      "side1": "たかい",
+      "side2": "expensive"
+    },
+    {
+      "side1": "やすい",
+      "side2": "inexpensive"
+    },
+    {
+      "side1": "いい",
+      "side2": "good"
+    },
+    {
+      "side1": "きれえ",
+      "side2": "pretty"
+    },
+    {
+      "side1": "しずか",
+      "side2": "quiet"
+    },
+    {
+      "side1": "なまえ",
+      "side2": "name"
+    },
+    {
+      "side1": "にほんご",
+      "side2": "Japanese language"
+    },
+    {
+      "side1": "えいご",
+      "side2": "English language"
+    },
+    {
+      "side1": "ひと",
+      "side2": "person"
+    },
+    {
+      "side1": "きもの",
+      "side2": "kimono"
+    },
+    {
+      "side1": "えいが",
+      "side2": "movie"
+    },
+    {
+      "side1": "おんがく",
+      "side2": "music"
+    },
+    {
+      "side1": "りょうり",
+      "side2": "dish (food)"
+    },
+    {
+      "side1": "くるま",
+      "side2": "car"
+    },
+    {
+      "side1": "へや",
+      "side2": "room"
+    },
+    {
+      "side1": "すこし",
+      "side2": "a little bit"
+    },
+    {
+      "side1": "とても",
+      "side2": "very (a lot)"
+    },
+    {
+      "side1": "ぼく",
+      "side2": "I (men only)"
+    },
+    {
+      "side1": "この",
+      "side2": "this ..."
+    },
+    {
+      "side1": "その",
+      "side2": "that ..."
+    },
+    {
+      "side1": "あの",
+      "side2": "that ... (over there)"
+    },
+    {
+      "side1": "どの",
+      "side2": "which ..."
+    },
+    {
+      "side1": "どれ",
+      "side2": "which one"
+    },
+    {
+      "side1": "の",
+      "side2": "relational marker"
+    }
+  ]
+}

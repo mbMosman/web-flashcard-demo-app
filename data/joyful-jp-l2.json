@@ -1,0 +1,112 @@
+{
+  "about": {
+    "id": "joy-jp-l2",
+    "title": "Lesson 2: Vocabulary",
+    "source": "Joyful Japanese",
+    "side1": "japanese",
+    "side2": "english"
+  },
+
+  "cards": [
+    {
+      "side1": "わたし",
+      "side2": "I"
+    },
+    {
+      "side1": "あなた",
+      "side2": "you"
+    },
+    {
+      "side1": "ーさん",
+      "side2": "polite name suffix"
+    },
+    {
+      "side1": "ーくん",
+      "side2": "name suffix for young man"
+    },
+    {
+      "side1": "がくせい",
+      "side2": "student"
+    },
+    {
+      "side1": "だいがくせい",
+      "side2": "college student"
+    },
+    {
+      "side1": "こうこうせい",
+      "side2": "high school student"
+    },
+    {
+      "side1": "せんせい",
+      "side2": "teacher"
+    },
+    {
+      "side1": "がっこう",
+      "side2": "school"
+    },
+    {
+      "side1": "びょういん",
+      "side2": "hospital"
+    },
+    {
+      "side1": "ほん",
+      "side2": "book"
+    },
+    {
+      "side1": "じしょ",
+      "side2": "dictionary"
+    },
+    {
+      "side1": "ともだち",
+      "side2": "friend"
+    },
+    {
+      "side1": "これ",
+      "side2": "this one"
+    },
+    {
+      "side1": "それ",
+      "side2": "that one"
+    },
+    {
+      "side1": "あれ",
+      "side2": "that one (over there)"
+    },
+    {
+      "side1": "と",
+      "side2": "and (together with)"
+    },
+    {
+      "side1": "は",
+      "side2": "focus marker"
+    },
+    {
+      "side1": "か",
+      "side2": "question marker"
+    },
+    {
+      "side1": "なん",
+      "side2": "what"
+    },
+    {
+      "side1": "はい",
+      "side2": "yes"
+    },
+    {
+      "side1": "いいえ",
+      "side2": "no"
+    },
+    {
+      "side1": "そうです。",
+      "side2": "That's right. (I see.)"
+    },
+    {
+      "side1": "ちがいます。",
+      "side2": "That's wrong."
+    },
+    {
+      "side1": "しつれですが ...",
+      "side2": "Excuse me, but ... (before asking ?)"
+    }
+  ]
+}
