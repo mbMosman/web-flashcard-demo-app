@@ -1,4 +1,4 @@
-#flashcard-app
+# web-flashcard-demo-app
 
 ## About
 This is a flashcard app that works with a [Leitner Model](https://en.wikipedia.org/wiki/Leitner_system) of 5 proficiency models. The cards are managed across sessions (locally w/in the web browser) in a series of decks. As cards are remembered they are placed into the next level of proficiency decks. If a card is forgotten, it is placed back into the main deck. Once cards have been consistently remembered across 4 sessions, it is considered mastered and pulled from the deck to make room for new cards.
